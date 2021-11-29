@@ -1,0 +1,26 @@
+.profile-picture-edit{
+    height: 570px;
+    transform: scaleX(-1);
+}
+
+.home-myname{
+    color: #5DB3EE;
+}
+.title-name{
+    font-size: 60px;
+    font-weight: 700;
+}
+.contact-button{
+    color: white;
+    background-color: #65b6ec;
+}
+.contact-button:hover{
+    color: #227db9;
+}
+.social-media{
+    height: 35px;
+    width: 35px;
+    margin-left: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
