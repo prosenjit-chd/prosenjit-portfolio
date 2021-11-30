@@ -1,13 +1,15 @@
 import React, { useEffect, useState } from 'react';
 import './Header.css';
-import { Container, Nav, Navbar, NavLink } from 'react-bootstrap';
+import { Container, Nav, Navbar } from 'react-bootstrap';
+import { NavLink } from 'react-router-dom';
+import { HashLink } from 'react-router-hash-link';
 
 const Header = () => {
 
     const activeStyle = {
         fontWeight: "bold",
-        color: "#00095E",
-        borderBottom: "solid 2px #00095E"
+        color: "blue",
+        borderBottom: "solid 2px blue"
     }
 
     const [scrolled, setScrolled] = useState(false);
@@ -31,17 +33,22 @@ const Header = () => {
                     </Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
-                        <Nav className="ms-auto d-flex align-items-center fw-bold primary-color" style={{ fontSize: 18 }}>
-                            <NavLink className="nav-link" activeStyle={activeStyle} to="home">Home</NavLink>
-                            <NavLink className="nav-link" activeStyle={activeStyle} to="/bikes">About</NavLink>
-                            <NavLink className="nav-link" activeStyle={activeStyle} to="/aboutus">Contact</NavLink>
+                        <Nav className="ms-auto d-flex align-items-center fw-bold primary-color" style={{ fontSize: 14 }}>
+                            <Nav.Link as={HashLink} activeStyle={activeStyle} to="/home#home">Home</Nav.Link>
+                            <Nav.Link as={HashLink} activeStyle={activeStyle} to="/home#about">About</Nav.Link>
+                            <Nav.Link as={HashLink} activeStyle={activeStyle} to="/home#education">Education</Nav.Link>
+                            <Nav.Link as={HashLink} activeStyle={activeStyle} to="/home#skills">Skills</Nav.Link>
+                            <Nav.Link as={HashLink} activeStyle={activeStyle} to="/home#projects">Projects</Nav.Link>
+                            <Nav.Link as={HashLink} activeStyle={activeStyle} to="/home#achivements">Achivements</Nav.Link>
+                            <Nav.Link as={HashLink} activeStyle={activeStyle} to="/home#contact">Contact</Nav.Link>
+                            <NavLink className="nav-link" activeStyle={activeStyle} to="/blogs">Blog</NavLink>
                         </Nav>
                     </Navbar.Collapse>
                 </Container>
             </Navbar>
-            <div style={{ marginTop: 100 }}>
+            {/* <div style={{ marginTop: 100 }}>
 
-            </div>
+            </div> */}
         </>
     );
 };

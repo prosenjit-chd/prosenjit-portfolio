@@ -2,3 +2,6 @@
     color: white;
     background-color: #5C76C3;
 }
+.status{
+    display: none;
+}

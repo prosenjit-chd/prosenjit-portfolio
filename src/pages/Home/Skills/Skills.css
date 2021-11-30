@@ -1,0 +1,29 @@
+.skill-title{
+    color: white;
+    background-color: #5C76C3;
+    text-align: center;
+}
+.card-text{
+    margin-top: 7px;
+    font-weight: bold;
+}
+.card-body{
+    border-radius: 15px;
+}
+.progress{
+    margin-top: 2px;
+}
+.skill-main{
+    height: 600px;
+    overflow: scroll;
+}
+/* Hide scrollbar for Chrome, Safari and Opera */
+.skill-main::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.skill-main {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}

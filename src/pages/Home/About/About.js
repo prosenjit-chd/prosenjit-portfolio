@@ -5,7 +5,7 @@ import './About.css';
 
 const About = () => {
     return (
-        <Container className="mt-5">
+        <Container style={{ paddingTop: "15%" }}>
             <div id="about" class="about">
 
                 <div class="jumbotron pt-4">
