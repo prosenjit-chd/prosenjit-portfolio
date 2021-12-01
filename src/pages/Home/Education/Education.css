@@ -6,7 +6,7 @@
     padding: 2%;
     margin-bottom: 10px;
     border-radius: 15px;
-    height: 170px;
+    height: 10px;
 }
 .edcation-video{
     padding: 2%;
@@ -33,4 +33,7 @@
     text-align: center;
     padding-top: 10px;
     color: white;
+}
+.video{
+    font-size: 80px;
 }

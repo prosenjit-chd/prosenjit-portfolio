@@ -33,7 +33,7 @@ const Header = () => {
                     </Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
-                        <Nav className="ms-auto d-flex align-items-center fw-bold primary-color" style={{ fontSize: 14 }}>
+                        <Nav className="ms-auto d-flex align-items-center fw-bold primary-color" style={{ fontSize: 15 }}>
                             <Nav.Link as={HashLink} activeStyle={activeStyle} to="/home#home">Home</Nav.Link>
                             <Nav.Link as={HashLink} activeStyle={activeStyle} to="/home#about">About</Nav.Link>
                             <Nav.Link as={HashLink} activeStyle={activeStyle} to="/home#education">Education</Nav.Link>

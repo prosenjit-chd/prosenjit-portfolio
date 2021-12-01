@@ -1,6 +1,6 @@
 .profile-picture-edit{
-    height: 570px;
-    transform: scaleX(-1);
+    /* height: 570px; */
+    /* transform: scaleX(-1); */
 }
 
 .home-myname{
@@ -23,4 +23,7 @@
     margin-left: 10px;
     cursor: pointer;
     border-radius: 5px;
+}
+.top-padding{
+    padding-top: 7% !important;
 }

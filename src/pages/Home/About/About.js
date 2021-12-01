@@ -52,7 +52,7 @@ const About = () => {
 
 
                             <div class="btn-group">
-                                <Button varient="light" className="mt-2" > <ChatDotsFill /> Contact Me</Button>
+                                <a href="#contact"><Button varient="light" className="me-3 mt-2 fs-5" style={{ backgroundColor: '#FFE4C4', border: 'none', padding: '6px 25px', color: 'black', fontWeight: 'large' }}> <ChatDotsFill /> Contact Me</Button> </a>
                             </div>
 
                         </div>
