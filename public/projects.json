@@ -2,7 +2,7 @@
     {
         "id": 1,
         "title": "Prosenjit Enterprise",
-        "duration": "November 2021",
+        "duration": "January 2022",
         "technology": "React, HTML, CSS, Bootstrap",
         "link": {
             "livesite": "https://prosenjit-app.web.app",
@@ -28,7 +28,7 @@
     {
         "id": 2,
         "title": "Prosenjit Travel",
-        "duration": "October 2021",
+        "duration": "December 2021",
         "technology": "React, HTML, CSS, Bootstrap",
         "link": {
             "livesite": "https://prosenjit-travell.web.app",
@@ -68,6 +68,7 @@
             "https://i.ibb.co/CQ4SC0j/image-7.png"
         ],
         "details": [
+            "This Project is made for those Bangladeshi people who currently live in aboard.",
             "User can Login this system using email, password as a Bangladeshi immigrant.",
             "In Admin section, admin can add, remove or update all information and check user requests.",
             "Users can Find Nearby people",

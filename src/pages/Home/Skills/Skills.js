@@ -85,7 +85,7 @@ const Skills = () => {
                                     <h4 class="skill-title card-title p-2">Professional Training</h4>
                                     <ol>
                                         <li>
-                                            <strong>Complete Web Development</strong> <br />November, 2021 <br />
+                                            <strong>Complete Web Development</strong> <br />February, 2022 <br />
                                             Organizer: Programming Hero <br /> Programming Hero Community <br />
                                             <a class="card-link stretched-link" target="_blank"
                                                 href="https://web.programming-hero.com"> Details </a>
