@@ -40,7 +40,7 @@ const ProjectDetails = () => {
                     </div>
                     <div>
                         <h4><b>Links: </b></h4>
-                        {project?.link?.livesite ? <a className="me-3" href={project?.link?.live} target="_blank">Live Site</a> : ''}
+                        {project?.link?.livesite ? <a className="me-3" href={project?.link?.livesite} target="_blank">Live Site</a> : ''}
                         {project?.link?.client ? <a className="me-3" href={project?.link?.client} target="_blank">Github Client</a> : ''}
                         {project?.link?.server ? <a className="me-3" href={project?.link?.server} target="_blank">Github Server</a> : ''}
                     </div>

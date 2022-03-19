@@ -7,7 +7,7 @@
         "link": {
             "livesite": "https://prosenjit-app.web.app",
             "client": "https://github.com/prosenjit-chd/Prosenjit-Enterprise-Clinet-Side-React",
-            "server": "https://github.com/prosenjit-chd/Prosenjit-Enterprise-Server-Side-Node"
+            "server": "https://github.com/prosenjit-chd/Prosenjit-Enterprise-Server-Side-Node-Updated"
         },
         "coverimg": "https://i.ibb.co/BHpr70Q/image-3.png",
         "imgsrc": [
@@ -57,7 +57,7 @@
         "duration": "March 2021",
         "technology": "Django, Firebase, HTML, CSS, Bootstrap",
         "link": {
-            "livesite": "https://drive.google.com/file/d/1tT-ONGbMYVbwAiVFZ5pNhXEeWWWAkdqG/view",
+            "livesite": "https://probashi-kollan.herokuapp.com",
             "client": "https://github.com/SK-Subroto/Probashi_Kollan",
             "server": "http://dspace.daffodilvarsity.edu.bd:8080/handle/123456789/5769?show=full"
         },
