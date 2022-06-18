@@ -21,7 +21,7 @@ const About = () => {
                         <div class="col-lg-6">
                             <div>
                                 <p>
-                                    Hello, <br />I completed my graduation from the <strong>Daffodil International
+                                    Hello, <br />I have completed my graduation from the <strong>Daffodil International
                                         University</strong> with a <strong>Bachelor of Computing and Information
                                             System.</strong>
                                     I have hands-on professionalism in designing software applications that meet the

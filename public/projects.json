@@ -1,9 +1,36 @@
 [
     {
         "id": 1,
+        "title": "Doublespace",
+        "duration": "May 2022",
+        "technology": "React, HTML, CSS, Tailwind, Mongoose, Node",
+        "link": {
+            "livesite": "https://doublespacearchitect.com",
+            "client": "https://github.com/prosenjit-chd/doublespace-frontend",
+            "server": "https://github.com/prosenjit-chd/Doublespace-Server-Node"
+        },
+        "coverimg": "https://i.ibb.co/dK7sv4d/image.png",
+        "imgsrc": [
+            "https://i.ibb.co/2yJj3s0/image.png",
+            "https://i.ibb.co/mXFJ0sg/image.png",
+            "https://i.ibb.co/12DppwX/image.png",
+            "https://i.ibb.co/pbJKNq6/image.png"
+        ],
+        "details": [
+            "This Project made for those people who searching an architect.",
+            "Here, user can see different types of previous project.",
+            "This is official website of doublespace company.",
+            "Clients see different types of architectural design in this website.",
+            "This is only client side website. Admin portion is different.",
+            "Projects, Client comment and Team member those three are dynamic. Admin can add, update, delete this.",
+            "This system stores all the information in a database and it deploy in c-panel."
+        ]
+    },
+    {
+        "id": 2,
         "title": "Prosenjit Enterprise",
         "duration": "January 2022",
-        "technology": "React, HTML, CSS, Bootstrap",
+        "technology": "React, Node, HTML, CSS, Bootstrap",
         "link": {
             "livesite": "https://prosenjit-app.web.app",
             "client": "https://github.com/prosenjit-chd/Prosenjit-Enterprise-Clinet-Side-React",
@@ -26,10 +53,10 @@
         ]
     },
     {
-        "id": 2,
+        "id": 3,
         "title": "Prosenjit Travel",
         "duration": "December 2021",
-        "technology": "React, HTML, CSS, Bootstrap",
+        "technology": "React, Node, HTML, CSS, Bootstrap",
         "link": {
             "livesite": "https://prosenjit-travell.web.app",
             "client": "https://github.com/prosenjit-chd/Prosenjit-Travell-Client-Side-React",
@@ -52,10 +79,10 @@
         ]
     },
     {
-        "id": 3,
+        "id": 4,
         "title": "Probashi Kallyan",
         "duration": "March 2021",
-        "technology": "Django, Firebase, HTML, CSS, Bootstrap",
+        "technology": "Python (Django), Firebase, HTML, CSS, Bootstrap",
         "link": {
             "livesite": "https://probashi-kollan.herokuapp.com",
             "client": "https://github.com/SK-Subroto/Probashi_Kollan",
@@ -80,7 +107,7 @@
         ]
     },
     {
-        "id": 4,
+        "id": 5,
         "title": "Home Pharma",
         "duration": "September 2021",
         "technology": "React, HTML, CSS, Bootstrap",
@@ -105,7 +132,7 @@
         ]
     },
     {
-        "id": 5,
+        "id": 6,
         "title": "Easy English",
         "duration": "August 2021",
         "technology": "React, HTML, CSS, Bootstrap",
@@ -126,29 +153,6 @@
             "Users, can also see about me page",
             "Users can signUp this system through Google or Email and Password.",
             "This system store all the information in a database"
-        ]
-    },
-    {
-        "id": 6,
-        "title": "Bright Mart",
-        "duration": "July 2021",
-        "technology": "JavaScript, HTML, CSS, Bootstrap",
-        "link": {
-            "livesite": "https://rangastore-prosenjitchd.netlify.app",
-            "client": "https://github.com/prosenjit-chd/Bright-Mart-Store-Client-Side-Reac"
-        },
-        "coverimg": "https://i.ibb.co/XVrD0Dz/image-23.png",
-        "imgsrc": [
-            "https://i.ibb.co/D1JqvT9/image-19.png",
-            "https://i.ibb.co/tpt81nX/image-21.png",
-            "https://i.ibb.co/cLS6SQm/image-20.png"
-        ],
-        "details": [
-            "This Project is one kind of mini ecommerce",
-            "Here, users can sea different types, of products, his/her preference course buy from here.",
-            "Useres can see details view of every products",
-            "After Add to Cart the product price will added in cart",
-            "Users can search product here"
         ]
     }
 ]
